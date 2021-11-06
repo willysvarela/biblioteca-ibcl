@@ -1,15 +1,17 @@
 ## Biblioteca IBCL
 Web App que lista os livros disponíveis para aluguel e reserva na Biblioteca da IBCL.
 
+## Screens
+https://www.figma.com/file/DgsyfXrXmNEylzgDnIOyqX/Untitled?node-id=2%3A2
 
 ## :construction_worker_man:	To Do
-- [] Página Principal
-- [] Detalhes do Livro
-- [] Pesquisa por Livro
-- [] Banco de Dados
-- [] Contagem de Visualizações de Livro
-- [] Link Whatsapp
-- [] Área Admin
+- [ ] Banco de Dados
+- [ ] Página Principal
+- [ ] Detalhes do Livro
+- [ ] Link Whatsapp
+- [ ] Pesquisa de Livros por nome
+- [ ] Contagem de Visualizações de Livro
+- [ ] Área Admin
 
 ## Como rodar localmente:
 
