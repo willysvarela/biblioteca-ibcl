@@ -7,10 +7,12 @@ https://www.figma.com/file/DgsyfXrXmNEylzgDnIOyqX/Untitled?node-id=2%3A2
 ## :construction_worker_man:	To Do
 - [ ] Banco de Dados
 - [ ] Página Principal
-- [ ] Detalhes do Livro
-- [ ] Link Whatsapp
+- [ ] Página Resultados de busca
+- [x] Detalhes do Livro
+- [x] Link Whatsapp
 - [ ] Pesquisa de Livros por nome
 - [ ] Contagem de Visualizações de Livro
+- [ ] Domínio: livros.ibcentralleste.com.br / biblioteca.ibcentralleste.com.br
 - [ ] Área Admin
 
 ## Como rodar localmente:
