@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['www.figma.com', 's3-alpha-sig.figma.com']
+    domains: ['www.figma.com', 's3-alpha-sig.figma.com', 'www.google.com']
   }
 }
