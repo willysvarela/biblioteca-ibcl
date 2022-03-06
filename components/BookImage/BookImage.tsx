@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import Image from "next/image";
 
 interface BookImageProps {
-    src: string;
+    src: string | null;
     alt?: string;
     className?: string;
 }
