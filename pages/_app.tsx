@@ -5,7 +5,7 @@ import type { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
-        <div className="container mx-auto max-w-lg px-0">
+        <div className="container mx-auto max-w-lg">
             <Layout>
                 <Component {...pageProps} />
             </Layout>

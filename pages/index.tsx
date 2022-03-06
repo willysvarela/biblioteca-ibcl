@@ -31,10 +31,10 @@ const HomePage: NextPage<HomePageProps> = ({ books }) => {
                 <div className="flex justify-center">
                     <SearchInput onChangeValue={handleSearch} />
                 </div>
-                <div className="flex flex-wrap my-10">
+                <div className="flex flex-wrap justify-evenly">
                     {filteredBooks.map((book) => {
                         return (
-                            <div key={book.id} className="ml-2 my-2">
+                            <div key={book.id} className="ml-2 my-4">
                                 <CardBook book={book} />
                             </div>
                         );

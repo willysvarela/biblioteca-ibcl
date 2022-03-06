@@ -23,10 +23,10 @@ const Livro: FC<LivroProps> = ({ book }) => {
     };
 
     return (
-        <div className="container">
+        <div className="container mx-5">
             <div className="flex flex-row">
-                <BookImage src={book.imageUrl} alt={book.title} />
-                <div className="ml-5 flex flex-col justify-between">
+                <BookImage src={book.imageUrl} alt={book.title}/>
+                <div className=" flex flex-col justify-between">
                     <h1 className="text-lg font-bold ">Livro {book.title}</h1>
                     <button
                         className="btn mt-2"
