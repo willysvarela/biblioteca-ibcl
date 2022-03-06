@@ -21,9 +21,9 @@ const CardBook: FC<CardBookProps> = ({ book, className }) => {
 
 	return (
 		<Link href={`/livro/${book.id}`} passHref>
-			<a className={"flex flex-col cursor-pointer " + className}>
+			<a className={"flex flex-col cursor-pointer" + className}>
 				<BookImage src={book.imageUrl} alt={book.title} />
-				<span className="text-xs" style={{ width: "110px" }}>
+				<span className="text-xs hover:color-primary" style={{ width: "110px" }}>
 					{titleSummary}
 				</span>
 			</a>
