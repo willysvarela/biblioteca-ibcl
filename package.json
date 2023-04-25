@@ -8,18 +8,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "apollo-server-micro": "^3.8.1",
+    "micro": "^9.3.4",
     "next": "^12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
+    "@apollo/client": "^3.6.5",
     "@types/node": "16.11.6",
     "@types/react": "17.0.34",
     "autoprefixer": "^10.4.0",
     "daisyui": "^1.16.1",
     "eslint": "7",
     "eslint-config-next": "12.0.3",
+    "graphql": "^16.5.0",
+    "next-apollo": "^5.0.8",
     "postcss": "^8.4.5",
     "tailwindcss": "latest",
     "typescript": "4.4.4"
