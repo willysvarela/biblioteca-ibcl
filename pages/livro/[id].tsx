@@ -25,7 +25,7 @@ const Livro: FC<LivroProps> = ({ book }) => {
     return (
         <div className="container mx-5">
             <div className="flex flex-row">
-                <BookImage src={book.imageUrl} alt={book.title}/>
+                <BookImage src={book.imageUrl} alt={book.title} />
                 <div className=" flex flex-col justify-between">
                     <h1 className="text-lg font-bold ">Livro {book.title}</h1>
                     <button
@@ -49,12 +49,12 @@ interface IParams extends ParsedUrlQuery {
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
+    const params = context.params;
     const { id } = context.params as IParams;
     const books = Books;
-
     const book: Book = books.find((book) => book.id === Number(id)) as Book;
-
     return { props: { book } };
+
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
