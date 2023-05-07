@@ -23,13 +23,13 @@ const Livro: FC<LivroProps> = ({ book }) => {
     };
 
     return (
-        <div className="container mx-5">
+        <div className="container px-2">
             <div className="flex flex-row">
                 <BookImage src={book.imageUrl} alt={book.title} />
-                <div className=" flex flex-col justify-between">
+                <div className=" flex flex-col justify-between ml-10 w-full">
                     <h1 className="text-lg font-bold ">Livro {book.title}</h1>
                     <button
-                        className="btn mt-2"
+                        className="btn btn-primary"
                         onClick={() => borrowBook(book)}
                     >
                         Alugar Livro

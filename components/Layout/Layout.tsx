@@ -8,14 +8,15 @@ interface LayoutProps {
 const Layout: FC<LayoutProps> = ({ children }) => {
     const router = useRouter();
     return (
-        <div  data-theme="dark">
-            <div className="navbar bg-base-100">
+        <div data-theme="light">
+            <div className="navbar flex justify-between">
                 <button
                     className="btn btn-ghost normal-case text-xl"
                     onClick={() => router.back()}
                 >
                     <FiArrowLeft />
                 </button>
+                <span className="text-xl">Biblioteca IBCL</span>
             </div>
             {children}
         </div>

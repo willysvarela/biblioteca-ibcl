@@ -17,16 +17,14 @@ const CardBook: FC<CardBookProps> = ({ book, className }) => {
 		setTitleSummary(book.title.substring(0, MAX_CHARS) + "...");
 	}, [book]);
 
-	const handleClickBook = () => {};
+	const handleClickBook = () => { };
 
 	return (
-		<Link href={`/livro/${book.id}`} passHref>
-			<a className={"flex flex-col cursor-pointer" + className}>
-				<BookImage src={book.imageUrl} alt={book.title} />
-				<span className="text-xs hover:color-primary" style={{ width: "110px" }}>
-					{titleSummary}
-				</span>
-			</a>
+		<Link className={"flex flex-col cursor-pointer" + className} href={`/livro/${book.id}`} passHref>
+			<BookImage src={book.imageUrl} alt={book.title} />
+			<span className="text-xs hover:color-primary" style={{ width: "110px" }}>
+				{titleSummary}
+			</span>
 		</Link>
 	);
 };
